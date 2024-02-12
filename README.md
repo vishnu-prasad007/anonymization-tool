@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-1. Prepare your input text files and place them in the input directory.
+1. Gather the text files you wish to anonymize and place them in the 'input' directory..
 2. Run the anonymization tool from the command line:
 
 ```console
