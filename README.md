@@ -19,10 +19,7 @@ To measure the effectiveness of the anonymization process, the tool employs reca
 
 ## Runtime complexity
 
-The time complexity of the operations are described per text document as follows:
-$$
-  O(p \times m + e + n \log n)
-$$
+The time complexity of the operations are described per text document as follows: $$O(p \times m + e + n \log n)$$
 
 This represents the overall time complexity of the operations per text file or document, where:
 - $p$  represents the patterns like (Regex, NER)
