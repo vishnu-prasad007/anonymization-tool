@@ -12,6 +12,7 @@ Entities like CAR_PLATE, SOCIAL_SECURITY_NUMBER, and CREDIT_CARD_NUMBERS are ide
 ### Anonymization
 Once the entities are extracted, they are anonymized by replacing them with randomly generated data of the same entity type. For example, if a CAR_PLATE is extracted from the original text, a randomly generated CAR_PLATE number is used to anonymize the sensitive information
 
+Also, preserving the semantics during anonymization is crucial to ensure that the anonymized information remains useful for further processing. To achieve this, each extracted entity is tagged with a identifier (ID). This ensures that although the actual content is anonymized, its semantic context remains intact
 
 ## Evaluation
 To measure the effectiveness of the anonymization process, the tool employs recall as the evaluation metric. A recall of 1 indicates successful anonymization, while a value less than 1 suggests that some sensitive PIDs may still be present in the anonymized text
